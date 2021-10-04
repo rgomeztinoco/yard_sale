@@ -1,0 +1,30 @@
+@use "./globales" as *;
+@mixin labels {
+  margin-bottom: 4px;
+  font-size: var(--sm);
+  font-weight: bold;
+}
+@mixin inputs {
+  height: 42px;
+  padding: 6px;
+  margin-bottom: 12px;
+  font-family: $fuente1;
+  font-size: var(--md);
+  background-color: var(--text-input-field);
+  border: none;
+  border-radius: 8px;
+}
+@mixin boton {
+  width: 100%;
+  height: 50px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  font-family: $fuente1;
+  font-size: var(--lg);
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--hospital-green);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

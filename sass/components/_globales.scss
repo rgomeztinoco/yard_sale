@@ -1,3 +1,4 @@
+$fuente1: 'Quicksand', sans-serif;
 :root {
   --very-ligth-pink: #C7C7C7;
   --white: #FFFFFF;
@@ -18,5 +19,5 @@ html {
   padding: 0;
 }
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: $fuente1;
 }

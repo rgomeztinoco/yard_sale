@@ -1,3 +1,8 @@
 mixin forInput({idM, classM, typeM, labelM, placeholderM})
   label.label(for=idM)=labelM
   input.input(type=typeM placeholder=placeholderM id=idM class="input-"+classM)
+mixin title({title, subtitle})
+  h1.title=title 
+  p.subtitle=subtitle 
+mixin logo 
+  img.logo(src="../assets/logo_yard_sale.svg", alt="logo")
